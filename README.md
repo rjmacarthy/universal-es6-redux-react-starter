@@ -22,7 +22,7 @@ npm run dev
 
 Application will be served at: `localhost:8080`
 
-Build client typescript files.
+Build client js files.
 ```
 npm run build
 ```
