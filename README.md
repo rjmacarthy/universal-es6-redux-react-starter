@@ -22,7 +22,7 @@ npm run dev
 
 Application will be served at: `localhost:8080`
 
-Build client typescript files.
+Build client js files.
 ```
 npm run build
 ```
@@ -37,7 +37,7 @@ Serve the application with express server.
 npm start
 ```
 
-Application will be served at: `localhost:3000`
+Application will be served at: `localhost:3050`
 
 ## Contributing
 
