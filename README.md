@@ -29,7 +29,7 @@ npm run build
 
 Serve the application development server in watch mode.
 ```
-npm dev:server
+npm run dev:server
 ```
 
 Serve the application with express server.
