@@ -10,10 +10,3 @@ export const get = (data) => {
         data: data
     };
 };
-
-export const appLoaded = () => {
-    return {
-        type: 'LOADED',
-        data: true
-    }
-}
