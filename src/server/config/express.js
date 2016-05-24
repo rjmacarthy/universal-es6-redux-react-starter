@@ -27,14 +27,13 @@ export default () => {
     _.forEach(config.globFiles(config.routes), (route) => {
         require(path.resolve('./' + route)).default(app);
     });
+    
     // catch 404 and forward to error handler
     app.use((err, req, res, next) => {
         var err = new Error('Not Found');
         next(err);
     });
 
-    // production error handler
-    // no stacktraces leaked to user
     app.use((err, req, res, next) => {
         res.status(err.status || 500);
         res.render('error', {
